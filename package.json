@@ -1,0 +1,16 @@
+{
+  "name": "ppx_decco-variant-error-repo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^6.2.1"
+  },
+  "scripts": {
+    "buckle:up": "bsb -make-world -w",
+    "buckle:build": "bsb -clean-world && bsb -make-world",
+    "buckle:clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "@ryb73/decco": "^0.2.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ppx_decco-variant-error-repo",
+  "reason": { "react-jsx": 3 },
+  "refmt": 3,
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "warnings": {
+    "error": "+101+102",
+    "number": "+A-40-42-4-102-41-48-30"
+  },
+  "bsc-flags": ["-open Belt"],
+  "ppx-flags": ["@ryb73/decco/ppx/ppx_decco.sh"],
+  "bs-dependencies": ["@ryb73/decco"]
+}
